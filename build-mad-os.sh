@@ -14,7 +14,6 @@ MIRROR="http://archive.ubuntu.com/ubuntu"
 CODENAME="noble"
 ARCH="amd64"
 
-rm -rf "$WORKDIR"
 mkdir -p "$CHROOT" "$ISO_DIR/casper" "$ISO_DIR"/{boot,install,EFI,isolinux}
 
 echo "Bootstrapping Ubuntu $CODENAME..."
